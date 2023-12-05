@@ -1,0 +1,109 @@
+* {
+    font-family: 'Poppins', sans-serif ;
+}
+
+.Text {
+    color: aliceblue;
+}
+
+.Main {
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    margin: 0;
+    background-image: url(https://images.unsplash.com/photo-1701434389583-4d8c5db9c9b8?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+}
+button {
+    padding: .5rem 2rem;
+    margin-block-start: 1rem;
+    font-size: 1rem;
+    color: white;
+    border: 3px solid transparent;
+    border-radius: 999px;
+    background-color: #2D3E50;
+    cursor: pointer;
+    transition: all .15s ease-in;
+    }
+    button:hover {
+        background-color: #4687cc;  
+    }
+
+    input {
+        font-size: 1rem; 
+        border-radius: 8px;
+        text-align: center;
+    }
+
+    #Bodybutton, #InputButton, #Inputs {
+        display: flex;
+        justify-content: center;
+    }
+   
+    .Text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #Inputs {
+        gap: 10px;
+        text-align: center;
+    }
+
+    .Results {
+        display: flex;
+        justify-content: center;
+        color: aliceblue;
+        font-size: larger;
+    }
+
+@media (min-width: 600px) {
+    body {
+        padding: 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 80vh;
+        margin: 0;
+       
+    }
+    h1, h2 {
+        font-size: 18px;
+    }
+    button, input[type="number"], input[type="submit"] {
+        display: flex;
+        width: 100%;
+        margin-bottom: 2px;
+        padding: 5px;
+        text-align: center;
+    }
+    button {
+        display: inline;
+        width: 80%;
+        margin-bottom: 10px;
+        text-align: center; 
+    }
+    #Inputs, #BodyButton {
+        align-items: center;
+        flex-direction: column;
+        
+    }
+  
+}
